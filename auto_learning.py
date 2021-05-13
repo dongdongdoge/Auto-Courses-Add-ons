@@ -34,8 +34,8 @@ def course(browser):
 def login(browser):
     browser.get("http://i.mooc.chaoxing.com/space/index?t=1617101385349") 
     time.sleep(3)
-    browser.find_element_by_id("unameId").send_keys('19520420491') 
-    browser.find_element_by_id("passwordId").send_keys('FOREVER0330ZJ') 
+    browser.find_element_by_id("unameId").send_keys('xxx') 
+    browser.find_element_by_id("passwordId").send_keys('xxx') 
     time.sleep(3)
     verify_code = input()
     browser.find_element_by_id('numcode').send_keys(verify_code)
